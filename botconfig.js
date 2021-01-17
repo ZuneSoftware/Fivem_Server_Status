@@ -5,7 +5,7 @@ module.exports = {
     
     kanalst: "", //channel with status
     wiadomoscst: "", //Message ID
-    ipst: "", //IP Server + Port [:30120]
+    ipst: "", //Server IP + Port [:30120]
     maksst: "", //number of server slots
     kolorst: "", //Color of embed message
     nazwafoost: "Last update", //do not touch!
