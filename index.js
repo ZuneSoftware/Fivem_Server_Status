@@ -4,7 +4,7 @@ const bot = new Discord.Client()
 const config = require("./botconfig");
 const request = require('request'); 
 const refresh = 10;
-const IP = ""; //IP Serwer + Port [:30120]
+const IP = ""; //Server IP + Port [:30120]
 const nazwa_serwera = "connect .." 
 
 
