@@ -1,6 +1,6 @@
 # FiveM Server Status
 
-Simple FiveM Server Status into a Discord channel
+Simple free FiveM server status into a Discord channel
 
 ## Setup
 
