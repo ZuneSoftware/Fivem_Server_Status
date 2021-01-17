@@ -10,7 +10,8 @@ Simple free FiveM server status into a Discord channel
 
 ## Running
 
-1. ```npm i```
+1. ```npm install discord.js```
+2. ```npm install request```
 2. ```npm start``` or ```node index.js```
 
 ## Credits
