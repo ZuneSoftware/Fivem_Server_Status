@@ -1,13 +1,13 @@
 module.exports = {
 
-    token: "", //Token Bot
+    token: "", //Bot Token
     prefix: "&",
     
     kanalst: "", //channel with status
     wiadomoscst: "", //Message ID
     ipst: "", //IP Server + Port [:30120]
     maksst: "", //number of server slots
-    kolorst: "", //Color Message Embed
+    kolorst: "", //Color of embed message
     nazwafoost: "Last update", //do not touch!
     nazwaglst: "", // server name
   
