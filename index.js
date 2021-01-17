@@ -4,7 +4,7 @@ const bot = new Discord.Client()
 const config = require("./botconfig");
 const request = require('request'); 
 const refresh = 10;
-const IP = ""; //Server IP + Port [:30120]
+const IP = ""; //IP Serwer + Port [:30120]
 const nazwa_serwera = "connect .." 
 
 
@@ -12,21 +12,12 @@ const nazwa_serwera = "connect .."
 bot.commands = new Discord.Collection();
 
 
-fs.readdir("./komendy/", (err, files) => {
-	if(err) console.log(err)
-	let jsfile = files.filter(f => f.split(".").pop() === "js");
-	if(jsfile.length <= 0){
-		console.log("Brak Komendy");
-		return;
-	}
 	
-	jsfile.forEach((f, i) => {
-		let props = require(`./komendy/${f}`);
-        console.log(`${f} Został załadowany!`);
-        bot.commands.set(props.help.name, props);
-	});
 	
-});
+    console.log(`Bot Activated`);
+       
+	
+
 
 bot.on("message", async message => {
   if(message.author.bot) return;
