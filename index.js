@@ -1,7 +1,7 @@
 const Discord = require("discord.js");
 const fs = require("fs");
 const bot = new Discord.Client()
-const config = require("./botconfig");
+const config = require("./config");
 const request = require('request'); 
 const refresh = 10;
 const IP = ""; //IP Serwer + Port [:30120]
@@ -14,7 +14,7 @@ bot.commands = new Discord.Collection();
 
 	
 	
-    console.log(`Bot Activated`);
+
        
 	
 
